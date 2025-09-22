@@ -663,16 +663,17 @@ form{
 
 /* Main logo sizing — crisp, responsive, preserves aspect ratio */
 .form-logo {
-  display: block;
+  display:block;
   width: auto;
   max-width: 85%;
   height: 115px;               /* 1.2x larger desktop size (96px * 1.2) */
   object-fit: contain;         /* preserve aspect ratio */
   image-rendering: -webkit-optimize-contrast;
-  margin: 0 auto;
+  margin: auto;
+  border-top: 10px;
 }
 /* Slightly lower the logo only in the Register form */
-.form-box.register .form-logo { margin-top: 10px; }
+.form-box.register .form-logo { margin-top: 20px; }
 
 /* mobile tweak */
 @media (max-width: 768px) {
