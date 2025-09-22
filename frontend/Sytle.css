@@ -666,7 +666,7 @@ form{
   display: block;
   width: auto;
   max-width: 85%;
-  height: 96px;                /* larger desktop size */
+  height: 115px;               /* 1.2x larger desktop size (96px * 1.2) */
   object-fit: contain;         /* preserve aspect ratio */
   image-rendering: -webkit-optimize-contrast;
   margin: 0 auto;
